@@ -91,17 +91,17 @@ body {
     bottom: 20px;
     right: 20px;
     margin-top: 0;
-    opacity: 0.2;
+    opacity: 1;
     transition: opacity 0.3s;
-    transform: scale(0.7);
+    transform: scale(1.2);
     z-index: 2;
     animation: subtle-hint 2s infinite alternate;
     animation-delay: 5s;
 }
 
 .secret-answer .cute-btn {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    font-size: 1.2rem;
+    padding: 15px 30px;
 }
 
 .secret-answer:hover {
