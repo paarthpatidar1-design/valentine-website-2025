@@ -22,10 +22,10 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Will you be my valentine?",                                    // First interaction
+            text: "Do you love me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "Click here if you really love me! ❤️😊"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
