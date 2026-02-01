@@ -240,3 +240,10 @@ function setupMusicPlayer() {
         }
     });
 } 
+// Force music to play on the first click anywhere on the page
+document.addEventListener('click', function() {
+    var audio = document.getElementById('bgMusic');
+    if (audio) {
+        audio.play();
+    }
+}, { once: true });
